@@ -60,6 +60,9 @@ def mol_scatter(
     x_axis,
     y_axis,
     tooltip: list = None,
+    color=None,
+    selector=False,
+    interactive=True,
     width=600,
     height=400,
     title="",
@@ -67,19 +70,36 @@ def mol_scatter(
     mark_opacity=1.0,
     mark_fill=False,
     mark_shape="circle",
+    mark_color="#1f77b4",
 ):
     if tooltip is None:
         tooltip = []
+    if isinstance(selector, bool) and selector:
+        selector = alt.selection_point()
+
+    if selector and color:
+        color = alt.condition(selector, color.legend(None), alt.value("lightgray"))
+    elif selector:
+        color = alt.condition(selector, alt.value(mark_color), alt.value("lightgray"))
+
+    if color is None:
+        color = alt.Color()
+
     tooltip.append("image")
     # Altair chart with tooltips displaying PNG images, ensuring the column is named 'image'
     chart = (
         alt.Chart(source)
         .mark_point(
-            size=mark_size, opacity=mark_opacity, filled=mark_fill, shape=mark_shape
+            size=mark_size,
+            opacity=mark_opacity,
+            filled=mark_fill,
+            shape=mark_shape,
+            color=mark_color,
         )
         .encode(
             x=x_axis,
             y=y_axis,
+            color=color,
             tooltip=tooltip,  # Referencing 'image' column for tooltips
         )
         .properties(
@@ -87,7 +107,9 @@ def mol_scatter(
             height=height,
             title=title,
         )
-        .interactive()
     )
-
+    if selector:
+        chart = chart.add_params(selector)
+    if interactive:
+        chart = chart.interactive()
     return chart

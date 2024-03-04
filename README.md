@@ -1,8 +1,8 @@
 # altmol
 
-`altmol` is a Python package designed to enrich Altair visualizations with interactive 2D molecular structures, 
-inspired by the capabilities of [molplotly](https://github.com/wjm41/molplotly). 
-The current version uses RDKit for molecular rendering.
+`altmol` enhances Altair visualizations by integrating interactive 2D molecular structures, 
+leveraging RDKit for rendering.
+This package is inspired by the capabilities of [molplotly](https://github.com/wjm41/molplotly). 
 
 ## Installation
 
@@ -39,7 +39,6 @@ import pandas as pd
 
 from altmol import encode_molecules, mol_scatter
 
-
 # URL of the ESOL dataset
 url_esol = 'https://raw.githubusercontent.com/deepchem/deepchem/master/datasets/delaney-processed.csv'
 
@@ -58,6 +57,8 @@ chart = mol_scatter(
     x_axis=alt.X(f"{x_col_name}:Q", title="True Log solubility"),
     y_axis=alt.Y(f"{y_col_name}:Q", title="Pred Log solubility"),
     tooltip=[x_col_name, y_col_name],
+    selector=False,
+    interactive=False,
     title="ESOL Regression"
 )
 chart.display()
@@ -76,7 +77,7 @@ for more information on how you can contribute.
 
 ## License
 
-`altmol` is released under the [MIT License](LICENSE.txt). See the LICENSE file for more details.
+`altmol` is released under the [MIT License](LICENSE). See the LICENSE file for more details.
 
 ## Acknowledgements
 
