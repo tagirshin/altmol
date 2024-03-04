@@ -4,14 +4,20 @@ from io import BytesIO
 import altair as alt
 import pandas as pd
 from rdkit import Chem
-from rdkit.Chem import Descriptors, Draw
+from rdkit.Chem import Descriptors, Draw, AllChem
 from rdkit.Chem.Draw import rdMolDraw2D
 from rdkit.Chem.rdChemReactions import ReactionFromSmarts
 
 
 def get_rdkit_object(smiles: str):
     if ">" in smiles:
-        return ReactionFromSmarts(smiles, useSmiles=True)
+        if ";" in smiles:
+            return AllChem.ReactionFromSmarts(smiles)
+        else:
+            try:
+                return ReactionFromSmarts(smiles, useSmiles=True)
+            except:
+                return AllChem.ReactionFromSmarts(smiles)
     else:
         return Chem.MolFromSmiles(smiles)
 
@@ -45,17 +51,24 @@ def mol_to_svg_data_url(mol, width=200, height=200):
     return f"data:image/svg+xml;base64,{data}"
 
 
-def encode_molecules(df: pd.DataFrame, smiles_col_name="smiles", img_format="svg"):
+def encode_molecules(
+    df: pd.DataFrame,
+    smiles_col_name="smiles",
+    img_format="svg",
+    img_width=200,
+    img_height=200,
+):
     df["Mol"] = df[smiles_col_name].apply(lambda x: get_rdkit_object(x))
-    df["MolecularWeight"] = df["Mol"].apply(lambda x: Descriptors.MolWt(x))
+    if isinstance(df["Mol"][0], Chem.Mol):
+        df["MolecularWeight"] = df["Mol"].apply(lambda x: Descriptors.MolWt(x))
     if img_format == "png":
-        df["image"] = df["Mol"].apply(mol_to_png_data_url)
+        df["image"] = df["Mol"].apply(mol_to_png_data_url, args=(img_width, img_height))
     elif img_format == "svg":
         df["image"] = df["Mol"].apply(mol_to_svg_data_url)
     return df.drop(columns=["Mol"])
 
 
-def mol_scatter(
+def mol_plot(
     source,
     x_axis,
     y_axis,
@@ -66,6 +79,7 @@ def mol_scatter(
     width=600,
     height=400,
     title="",
+    chart_type="scatter",
     mark_size=20,
     mark_opacity=1.0,
     mark_fill=False,
@@ -87,26 +101,34 @@ def mol_scatter(
 
     tooltip.append("image")
     # Altair chart with tooltips displaying PNG images, ensuring the column is named 'image'
-    chart = (
-        alt.Chart(source)
-        .mark_point(
+    if chart_type == "scatter":
+        chart = alt.Chart(source).mark_point(
             size=mark_size,
             opacity=mark_opacity,
             filled=mark_fill,
             shape=mark_shape,
             color=mark_color,
         )
-        .encode(
-            x=x_axis,
-            y=y_axis,
-            color=color,
-            tooltip=tooltip,  # Referencing 'image' column for tooltips
+    elif chart_type == "bar":
+        chart = alt.Chart(source).mark_bar(
+            size=mark_size,
+            opacity=mark_opacity,
+            filled=mark_fill,
+            shape=mark_shape,
+            color=mark_color,
         )
-        .properties(
-            width=width,
-            height=height,
-            title=title,
-        )
+    else:
+        raise NotImplementedError(f"Unsupported chart type: {chart_type}")
+
+    chart = chart.encode(
+        x=x_axis,
+        y=y_axis,
+        color=color,
+        tooltip=tooltip,  # Referencing 'image' column for tooltips
+    ).properties(
+        width=width,
+        height=height,
+        title=title,
     )
     if selector:
         chart = chart.add_params(selector)

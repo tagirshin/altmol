@@ -37,7 +37,7 @@ Here's a simple example to illustrate how to create an interactive scatter plot 
 import altair as alt
 import pandas as pd
 
-from altmol import encode_molecules, mol_scatter
+from altmol import encode_molecules, mol_plot
 
 # URL of the ESOL dataset
 url_esol = 'https://raw.githubusercontent.com/deepchem/deepchem/master/datasets/delaney-processed.csv'
@@ -52,7 +52,7 @@ x_col_name = "measured log solubility in mols per litre"
 y_col_name = "ESOL predicted log solubility in mols per litre"
 
 # Generate and display the interactive plot
-chart = mol_scatter(
+chart = mol_plot(
     df,
     x_axis=alt.X(f"{x_col_name}:Q", title="True Log solubility"),
     y_axis=alt.Y(f"{y_col_name}:Q", title="Pred Log solubility"),

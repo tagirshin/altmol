@@ -1,0 +1,100 @@
+retro_template,template_hash,classification,library_occurence
+([C:4]-[NH;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3])>>(Cl-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([C:4]-[NH2;D1;+0:5]),04f622b60f06614bfdc3f8c27947d26b216da996402159ccfe3a0fc7,N-acylation to amide,1197
+([C:1]-[NH2;D1;+0:2])>>([C:1]-[N;H0;D2;+0:2]=[N+]=[N-]),070a946412681dc3cde4c63e0e9dd945476d44bb1aa5127f721cc5fd,Other functional group interconversion,1547
+([#7:4]-[C:5](=[O;D1;H0:6])-[C:7]-[NH;D2;+0:8]-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([#7:4]-[C:5](=[O;D1;H0:6])-[C:7]-[NH2;D1;+0:8]),09e961e4c21b1adcf2f8d3b116773699ab5020ae114ca5b853caf10a,N-acylation to amide,1116
+([C:3]-[C:2](=[O;D1;H0:4])-[OH;D1;+0:1])>>(C-[O;H0;D2;+0:1]-[C:2](-[C:3])=[O;D1;H0:4]),0a02d2d47df007d05d29f7b852c5bfe9dcbd7a32224d027cc636bd27,RCO2H deprotections,9484
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([C:4]-[NH;D2;+0:5]-[C:6]),0f35e4698af78868189072042f755bea621b23e196ec3dd2372ca253,N-acylation to amide,5645
+([C:1]-[CH;D3;+0:2](-[C:3])-[OH;D1;+0:4])>>([C:1]-[C;H0;D3;+0:2](-[C:3])=[O;H0;D1;+0:4]),0fb396942a5bc824558e6936c3618c2e342b489a89eccebed032da69,Ketone to alcohol,1099
+([#7;a:2]:[c;H0;D3;+0:1](:[c:3])-[O;H0;D2;+0:5]-[C;D1;H3:4])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[c:3]).([C;D1;H3:4]-[O-;H0;D1:5]),10907cd3c67b89554bc459401febf504bb2680a0918b9d386f58414c,O-substitution,1262
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([C:4]-[NH;D2;+0:5]-[C:6]),11438d3fa968bbd8c4f3372ffee303c561281eed4a1be36b1ce3c5b0,N-acylation to amide,4168
+([#7:4]-[C:3](=[O;D1;H0:5])-[C:2]-[NH2;D1;+0:1])>>(C-C(-C)(-C)-O-C(=O)-[NH;D2;+0:1]-[C:2]-[C:3](-[#7:4])=[O;D1;H0:5]),140717369b6c661d32f428907ffcecf2a0f3702c28cc263bfa3ac1c3,NH deprotections,1106
+([#7:2]-[CH2;D2;+0:1]-[C:3])>>(O=[C;H0;D3;+0:1](-[#7:2])-[C:3]),164bcd5926595fb14a6a9bdfa6263711f1e81657ce47f1a9ea439ccb,Amide to amine reduction,1676
+([C;H3;D1;+0]-[O;H0;D2;+0:3]-[C:2]=[O;D1;H0:1])>>([O;D1;H0:1]=[C:2]-[OH;D1;+0:3]),197f1216cfad4620fc46a9e2c8eeea97ecc19a4b9b854f5c39c8f85f,O-substitution,1159
+([C:2]-[CH2;D2;+0:1]-[O;D1;H1:3])>>(O=[C;H0;D3;+0:1](-[C:2])-[O;D1;H1:3]),19ea0b41ce34ad96a8275f097d0c11f47736ca7f973cd7c4aee5b189,Other reductions,1376
+([C:5]-[N;H0;D3;+0:6](-[C:7])-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4])>>(Cl-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4]).([C:5]-[NH;D2;+0:6]-[C:7]),1c3a913f221c79d5ab4e40f13ae7431f2711f9942a72ad3fc8bf5434,N-sulfonylation,1394
+([C:3]-[N;H0;D3;+0:4](-[C:5])-[CH2;D2;+0:1]-[C:2])>>(O=[CH;D2;+0:1]-[C:2]).([C:3]-[NH;D2;+0:4]-[C:5]),1eecabe0173fa39f206a365ccea98e2b763ff157e33c23433b777de4,Reductive amination,1837
+([C:2]-[Si;H0;D4;+0:1](-[C:3])(-[C:4])-[O;H0;D2;+0:6]-[C:5])>>(Cl-[Si;H0;D4;+0:1](-[C:2])(-[C:3])-[C:4]).([C:5]-[OH;D1;+0:6]),2198be2381e37a3334f25c59fbeede1694f6fea560c8926b33da47aa,Unassigned,1659
+([Cl;H0;D1;+0]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]),22c40e8fc0c9edff204ad748d2987ef676d928b154c2331bfa9e8f6a,Acid to acid chloride,1600
+([C:5]-[O;H0;D2;+0:6]-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4])>>(Cl-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4]).([C:5]-[OH;D1;+0:6]),2a680215c1c69f116045ff1696194ac3ca890d5406b0abc3856bedc8,O-sulfonylation,1465
+([C:1]-[C:2](=[O;D1;H0:3])-[OH;D1;+0:4])>>([C:1]-[C:2](=[O;D1;H0:3])-[O;H0;D2;+0:4]-C-c1:c:c:c:c:c:1),3358e9d74bcf91ba7e96568094da103c2e3a143a7d89e0937034db20,ROH deprotections,1075
+([C:4]#[C;H0;D2;+0:5]-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(I-[c;H0;D3;+0:1](:[c:2]):[c:3]).([C:4]#[CH;D1;+0:5]),342ec13d6dc46f8caedd04911cf98542ef6704fb7da33fd6b60ef2c6,Sonogashira reaction,1273
+([O;D1;H0:2]=[C;H0;D3;+0:1](-[c:3])-[NH;D2;+0:4]-[c:5])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([NH2;D1;+0:4]-[c:5]),35b8cb0d38b7801143c15d7c216f0b66c154f00ac243d1252d6d0e55,N-acylation to amide,2300
+([C:2]-[OH;D1;+0:1])>>(C-C(-C)(-C)-[Si](-C)(-C)-[O;H0;D2;+0:1]-[C:2]),368b3f927702b41932c1075690d6eeba50254e115711ea09825c0c9c,ROH deprotections,2562
+([C:2]#[CH;D1;+0:1])>>(C-[Si](-C)(-C)-[C;H0;D2;+0:1]#[C:2]),369c1d52dad09f90f7281506a651d2a503963767498d914edaae47e1,Other deprotections,1012
+([#7;a:2]:[c;H0;D3;+0:1](:[#7;a:3])-[NH;D2;+0:5]-[C:4])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[#7;a:3]).([C:4]-[NH2;D1;+0:5]),37356f3ff9da6e71c10e8b10fe57838cb502f1ab49d9cb2b73931baa,N-arylation with Ar-X,1169
+([C:5]-[NH;D2;+0:6]-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4])>>(Cl-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4]).([C:5]-[NH2;D1;+0:6]),39c3f693e065fda9f5882e30404d820313d65e719c7613e0b2e1faa1,N-sulfonylation,1522
+([C:2]-[C;H0;D3;+0:1](=[O;D1;H0:3])-[NH;D2;+0:4]-[c:5])>>(Cl-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([NH2;D1;+0:4]-[c:5]),3c2f9ebaf4afd5ac92b5ac7c3ff0ba51ecfcd4d148a3c3aad01989cb,N-acylation to amide,1961
+([C:2]-[O;H0;D2;+0:3]-[CH3;D1;+0:1])>>(I-[CH3;D1;+0:1]).([C:2]-[OH;D1;+0:3]),3f112fb289bac1f05b1a74f7afd73d0dad9ae0e80c6f59107df8cdb1,O-substitution,1366
+([C:4]#[C;H0;D2;+0:5]-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]).([C:4]#[CH;D1;+0:5]),42f697fc7ae70923f5806984441d2582468344af75caeb7e213f1b10,Sonogashira reaction,1167
+([C:2]-[C;H0;D3;+0:1](-[Cl;H0;D1;+0])=[O;D1;H0:3])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]),4330ec77fbf18cb0dde0ff33c2312f5657057c4617c52317baf0c95d,Acid to acid chloride,1312
+([c:4]-[O;H0;D2;+0:3]-[CH2;D2;+0:1]-[c:2])>>(Br-[CH2;D2;+0:1]-[c:2]).([OH;D1;+0:3]-[c:4]),461509c97939d6bb7d33fa525a38ed8d1f68b96cbf191aaea94397d2,O-substitution,1982
+([O;D1;H0:3]=[C:2](-[OH;D1;+0:1])-[c:4]1:[c:5]:[c:6]:[c:7]:[c:8]:[c:9]:1)>>(C-[O;H0;D2;+0:1]-[C:2](=[O;D1;H0:3])-[c:4]1:[c:5]:[c:6]:[c:7]:[c:8]:[c:9]:1),48f3c58ed4b2eb976195200c79ebaafb36d7eb1c6248c7c6424a4457,RCO2H deprotections,6746
+([C:4]-[NH;D2;+0:5]-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3])>>(Cl-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([C:4]-[NH2;D1;+0:5]),493dfbb0afd083041fcf14557ee7dc8217381b2f2e0ce03b2961712e,N-acylation to amide,1629
+([C:8]-[N;H0;D3;+0:9](-[C:10])-[C;H0;D3;+0:1](=[O;D1;H0:2])-[#8:3]-[C:4](-[C;D1;H3:5])(-[C;D1;H3:6])-[C;D1;H3:7])>>(C-C(-C)(-C)-O-C(=O)-O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[#8:3]-[C:4](-[C;D1;H3:5])(-[C;D1;H3:6])-[C;D1;H3:7]).([C:8]-[NH;D2;+0:9]-[C:10]),4adaee2f919129a728a81156383c0a0b04988e7bc84e82c9b95523a9,NH protections,1434
+([C;D1;H3:4]-[NH;D2;+0:5]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([C;D1;H3:4]-[NH2;D1;+0:5]),4b62c30a3b92b9941a5ddfdb3fbb597241af09409f8fb78aee5317d4,N-acylation to amide,5853
+([O;D1;H0:3]=[C;H0;D3;+0:4](-[NH;D2;+0:1]-[c:2])-[NH;D2;+0:5]-[c:6])>>([NH2;D1;+0:1]-[c:2]).([O;D1;H0:3]=[C;H0;D2;+0:4]=[N;H0;D2;+0:5]-[c:6]),4d90b1ac49508f74aabfac353704d5bbc882a25d954d104bc3fe56df,N-acylation to urea,1062
+([C:2]-[CH2;D2;+0:1]-[O;H0;D2;+0:3]-[c:4])>>(Cl-[CH2;D2;+0:1]-[C:2]).([OH;D1;+0:3]-[c:4]),527560bc9018fea283f8e56075bc56b30679ebc551e8680bcfc16c9a,O-substitution,1512
+([C:3]-[N;H0;D3;+0:4](-[C:5])-[CH2;D2;+0:1]-[C:2])>>(Br-[CH2;D2;+0:1]-[C:2]).([C:3]-[NH;D2;+0:4]-[C:5]),53994dd2d8bb14288cdfb7c2951155e80ca49e2c98f7d531177a38b3,Heteroaryl N-alkylation,2919
+([c:2]:[c;H0;D3;+0:1](:[c:3])-[c;H0;D3;+0:4](:[c:5]):[c:6])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]).(O-B(-O)-[c;H0;D3;+0:4](:[c:5]):[c:6]),55251936defc26e51bebc585e4f1cda158e89f53686fa5d9c09591aa,Suzuki coupling,3843
+([C:2]-[NH;D2;+0:1]-[C:3])>>(C-C(-C)(-C)-O-C(=O)-[N;H0;D3;+0:1](-[C:2])-[C:3]),55396c1492cc3823f0701ef923544f9f4c1af584b69f4ce5650dc5ae,NH deprotections,7879
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3])>>(Cl-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([C:4]-[NH;D2;+0:5]-[C:6]),58bfc612ddb3c3923670b0fade9423da56792769e45e6b088debac9e,N-acylation to amide,1793
+([C:2]-[NH;D2;+0:1]-[C:3])>>(O=C(-O-C-c1:c:c:c:c:c:1)-[N;H0;D3;+0:1](-[C:2])-[C:3]),5a4b471314a9d16582c772175d4da637e8cc4c358126acefcc826e38,NH deprotections,1185
+([OH;D1;+0:2]-[c:1])>>([c:1]-[O;H0;D2;+0:2]-C-c1:c:c:c:c:c:1),5aae93a61569145ed18632d801932cdc99b7a496825e1c5156904263,ROH deprotections,2229
+([C:2]-[C;H0;D3;+0:1](=[O;D1;H0:3])-[NH;D2;+0:4]-[C:5]-[c:6]1:[c:7]:[c:8]:[c:9]:[c:10]:[c:11]:1)>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([NH2;D1;+0:4]-[C:5]-[c:6]1:[c:7]:[c:8]:[c:9]:[c:10]:[c:11]:1),5ad7c2cc16d6ee5b57312b54d1398a8d361f2cfad0dc66add676f018,N-acylation to amide,1330
+([C:5]-[O;H0;D2;+0:6]-[S;H0;D4;+0:1](-[C;D1;H3:2])(=[O;D1;H0:3])=[O;D1;H0:4])>>(Cl-[S;H0;D4;+0:1](-[C;D1;H3:2])(=[O;D1;H0:3])=[O;D1;H0:4]).([C:5]-[OH;D1;+0:6]),5b2ff2a69fb7bd6a032938e468684773bcc668928b037bbec0ac8335,O-sulfonylation,3320
+([C:7]-[#8:6]-[c:5]1:[c:4]:[c:3]:[c:2](-[NH2;D1;+0:1]):[c:9]:[c:8]:1)>>(O=[N+;H0;D3:1](-[O-])-[c:2]1:[c:3]:[c:4]:[c:5](-[#8:6]-[C:7]):[c:8]:[c:9]:1),5d606ba98c48a347483be685a963a247739e05d6f2d25949b87f7a78,Nitro to amine reduction,1317
+([O;D1;H0:2]=[S;H0;D4;+0:1](=[O;D1;H0:3])(-[c:4])-[NH;D2;+0:5]-[c:6])>>(Cl-[S;H0;D4;+0:1](=[O;D1;H0:2])(=[O;D1;H0:3])-[c:4]).([NH2;D1;+0:5]-[c:6]),5e78a661181f8271dd0d21f0efa96b7d75105c87fa022f79effe5902,N-sulfonylation,1323
+([C:4]-[O;H0;D2;+0:5]-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(F-[c;H0;D3;+0:1](:[c:2]):[c:3]).([C:4]-[OH;D1;+0:5]),5e910f78c09147f95443e74bed5b26e7557d68f73dba61bcb03d2b4e,O-substitution,1375
+([C:1]-[CH;D2;+0:2]=[O;H0;D1;+0:3])>>([C:1]-[CH2;D2;+0:2]-[OH;D1;+0:3]),61df3886a0291f08a9e9f8293588d04d916daa376a54f86534b439c2,Alcohols to aldehydes,1999
+([C:2]-[CH;D3;+0:1](-[C:3])-[NH;D2;+0:5]-[C:4])>>(O=[C;H0;D3;+0:1](-[C:2])-[C:3]).([C:4]-[NH2;D1;+0:5]),67be25fd3ed7bf7f205940372151b70bd780167c6e07893adbc37ca7,Reductive amination,1033
+([c:5]-[O;H0;D2;+0:4]-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(F-[c;H0;D3;+0:1](:[c:2]):[c:3]).([OH;D1;+0:4]-[c:5]),699454af32c1dcb65df79638d1d0d44f5818d2b11a2a1ca9e88190c9,O-substitution,1227
+([C:2]-[CH2;D2;+0:1]-[O;H0;D2;+0:3]-[c:4])>>(O-[CH2;D2;+0:1]-[C:2]).([OH;D1;+0:3]-[c:4]),6b5437625f42979eb76da5582165cd62b5dfeb41d76ac0fbed0bf4a3,O-substitution,2138
+([C:2]-[NH2;D1;+0:1])>>(C-C(-C)(-C)-O-C(=O)-[NH;D2;+0:1]-[C:2]),6c83f45f485301792011c63e6835be21ece3be24f5b32a6e45acc5be,NH deprotections,3129
+([O;H0;D1;+0:1]=[CH;D2;+0:2]-[c:3])>>([OH;D1;+0:1]-[CH2;D2;+0:2]-[c:3]),6f544a9b286c4786b46429a74b4a72e536e22ba10273cfcd1d3d737e,Alcohols to aldehydes,1288
+([C:2]-[NH2;D1;+0:1])>>(O=C1-[N;H0;D3;+0:1](-[C:2])-C(=O)-c2:c:c:c:c:c:2-1),7399a60fd7378a24dfa10a10ff432b29a0c80f1c6d7ac70d27cfe818,NH deprotections,1321
+([C:2]-[CH2;D2;+0:1]-[O;H0;D2;+0:3]-[c:4])>>(Br-[CH2;D2;+0:1]-[C:2]).([OH;D1;+0:3]-[c:4]),77cefa6f7285e1367b00e291ad0c233a215688d867a7713380b3385d,O-substitution,3910
+([C;D1;H3:2]-[S;H0;D4;+0:1](=[O;D1;H0:3])(=[O;D1;H0:4])-[NH;D2;+0:5]-[c:6])>>(Cl-[S;H0;D4;+0:1](-[C;D1;H3:2])(=[O;D1;H0:3])=[O;D1;H0:4]).([NH2;D1;+0:5]-[c:6]),7a86b2ad2aa38f7430f6b222e529ea4d63feb5fb316dae970d8859d5,N-sulfonylation,1049
+([#8:5]-[B;H0;D3;+0:4](-[#8:6])-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]).(C-C1(-C)-O-B(-[B;H0;D3;+0:4](-[#8:5])-[#8:6])-O-C-1(-C)-C),809111b01e38b549ab34d8fc095aeb8c0540db06f3c41a247745e882,Other functional group interconversion,1682
+([O;D1;H0:2]=[C;H0;D3;+0:1](-[c:3])-[NH;D2;+0:4]-[c:5])>>(Cl-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([NH2;D1;+0:4]-[c:5]),81bbe9d480d200be1437e9ca625a57474abf80dfdc397cf8e383daca,N-acylation to amide,1692
+([OH;D1;+0:1]-[CH2;D2;+0:2]-[c:3])>>([O;H0;D1;+0:1]=[CH;D2;+0:2]-[c:3]),840c26c06ae3d1e03b5c3844632a3543b6d18e6db9d7ee28fbdda31c,Other reductions,1257
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3])>>(Cl-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]).([C:4]-[NH;D2;+0:5]-[C:6]),8e776da45ba18fd7625e94abe947f9adcda1a9454a884e9be672df24,N-acylation to amide,1211
+([c:2]:[c;H0;D3;+0:1](:[c:3])-[c;H0;D3;+0:4](:[c:5]):[c:6])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]).(C-C1(-C)-O-B(-[c;H0;D3;+0:4](:[c:5]):[c:6])-O-C-1(-C)-C),9070cdd4fb6f1677ab91185ae4f4e0309f05412abddf79c11415d35f,Suzuki coupling,1407
+([O;D1;H1:2]-[CH2;D2;+0:1]-[c:3])>>(O=[C;H0;D3;+0:1](-[O;D1;H1:2])-[c:3]),941d79e40eec120c253d10c2451c725be20ac728e48a900868a96582,Other reductions,1018
+([C:4]-[NH;D2;+0:5]-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([C:4]-[NH2;D1;+0:5]),9700dfbbea18932b10f40ed49527a6efd0b261364d0b5e3b1e240441,N-acylation to amide,5405
+([OH;D1;+0:2]-[CH2;D2;+0:1]-[c:3]1:[c:4]:[c:5]:[c:6]:[c:7]:[c:8]:1)>>(C-O-[C;H0;D3;+0:1](=[O;H0;D1;+0:2])-[c:3]1:[c:4]:[c:5]:[c:6]:[c:7]:[c:8]:1),9837206e9cbc012a1b67dbe24ef91db70782b4def0fddc7be5dd9197,Ester to alcohol,1033
+([C:2]-[C;H0;D3;+0:1](=[O;D1;H0:3])-[NH;D2;+0:4]-[c:5])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([NH2;D1;+0:4]-[c:5]),993a80a34f6acdc22e1630fbdadc440460d93877c75dd17e7db680f0,N-acylation to amide,2677
+([C:3]-[C:2](=[O;D1;H0:4])-[OH;D1;+0:1])>>(C-C-[O;H0;D2;+0:1]-[C:2](-[C:3])=[O;D1;H0:4]),9a4c5ceadb3b4a753bb8f03491f138cd875a84f1d327e818237f90df,RCO2H deprotections,9599
+([C:5]-[N;H0;D3;+0:6](-[C:7])-[S;H0;D4;+0:1](-[C:2])(=[O;D1;H0:3])=[O;D1;H0:4])>>(Cl-[S;H0;D4;+0:1](-[C:2])(=[O;D1;H0:3])=[O;D1;H0:4]).([C:5]-[NH;D2;+0:6]-[C:7]),9f2ab39da02b7f6989c7b19975a1f5a7b0a953933c6e2d89882f3818,N-sulfonylation,1040
+([C:2]-[CH2;D2;+0:1]-[OH;D1;+0:3])>>(C-C-O-[C;H0;D3;+0:1](-[C:2])=[O;H0;D1;+0:3]),a6631af41b21b01ef30bc6f050ba77f4649f41c184ba7ddaa745a395,Ester to alcohol,2011
+([C:2]-[C;H0;D3;+0:1](=[O;D1;H0:3])-[O;H0;D2;+0:5]-[C:4])>>(O-[C;H0;D3;+0:1](-[C:2])=[O;D1;H0:3]).([C:4]-[OH;D1;+0:5]),a6871142fd86a88cf89e8dce15586c0c2325bd32f2c5592778c4dcb1,O-acylation to ester,1134
+([C:1]-[CH2;D2;+0:2]-[NH2;D1;+0:3])>>([C:1]-[C;H0;D2;+0:2]#[N;H0;D1;+0:3]),a6a560e6a4e37275ec6c4d64bf3e0ca249f135b1541102f34f75dc07,Cyano or imine to amine,1120
+([C:2]-[CH2;D2;+0:1]-[OH;D1;+0:3])>>(C-O-[C;H0;D3;+0:1](-[C:2])=[O;H0;D1;+0:3]),ace077327b65885e2493775e77cea5434d2da2918de8308af58629a6,Ester to alcohol,1139
+([O;D1;H0:3]=[C:2](-[OH;D1;+0:1])-[c:4])>>(C-[O;H0;D2;+0:1]-[C:2](=[O;D1;H0:3])-[c:4]),b499e0b68ab8cc89df665c73ba592c6e17427fbd5b75a0a04b8fb5db,RCO2H deprotections,4386
+([#7;a:2]:[c;H0;D3;+0:1](:[#7;a:3])-[N;H0;D3;+0:5](-[C:4])-[C:6])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[#7;a:3]).([C:4]-[NH;D2;+0:5]-[C:6]),b57905a5bce8517a4e40b0e20794e889407f66a0ae3d7a09e7fbb00e,N-arylation with Ar-X,1306
+([O;D1;H0:3]=[C:2](-[OH;D1;+0:1])-[c:4]1:[c:5]:[c:6]:[c:7]:[c:8]:[c:9]:1)>>(C-C-[O;H0;D2;+0:1]-[C:2](=[O;D1;H0:3])-[c:4]1:[c:5]:[c:6]:[c:7]:[c:8]:[c:9]:1),b57929d9e3209af75d43bacb21ca1b88be1d99c459fe4b70a2c9beda,RCO2H deprotections,1878
+([#7;a:2]:[c;H0;D3;+0:1](:[c:3])-[NH;D2;+0:5]-[C:4])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[c:3]).([C:4]-[NH2;D1;+0:5]),b7dcca1715ae4f4860ce60c58aa7a841fe17b3f404fb48a132c70869,N-arylation with Ar-X,1123
+([O;D1;H0:3]=[C:2](-[OH;D1;+0:1])-[c:4])>>(C-C-[O;H0;D2;+0:1]-[C:2](=[O;D1;H0:3])-[c:4]),b8d35231a9d964a0bcde41cb860d8e6c4726c2823ff5946d3ed0c3c9,RCO2H deprotections,5748
+([C;D1;H3:2]-[CH2;D2;+0:1]-[O;H0;D2;+0:5]-[C:4]=[O;D1;H0:3])>>(O-[CH2;D2;+0:1]-[C;D1;H3:2]).([O;D1;H0:3]=[C:4]-[OH;D1;+0:5]),bc7193984167c71913195a0abce257da8748eb7d4b76769dceef2d3f,O-acylation to ester,1796
+([C:3]-[N;H0;D3;+0:4](-[C:5])-[CH2;D2;+0:1]-[C:2])>>(Cl-[CH2;D2;+0:1]-[C:2]).([C:3]-[NH;D2;+0:4]-[C:5]),c38df6bb72f417e54d2346e687e032ed86554f208af48effa9422912,Heteroaryl N-alkylation,2642
+([#7;a:5]:[c:4]:[c:3]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[NH;D2;+0:7]-[C:6])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]:[c:4]:[#7;a:5]).([C:6]-[NH2;D1;+0:7]),c8d3e8be644ca37fe3075935d6d9f9515443e1dc5a5fca512a1988ac,N-acylation to amide,1860
+([#7;a:2]:[c;H0;D3;+0:1](:[#7;a:3])-[NH;D2;+0:4]-[c:5])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[#7;a:3]).([NH2;D1;+0:4]-[c:5]),c9384cff16d8f069182a19c69b5ea34c7f585d1701326a079e8522b5,N-arylation with Ar-X,2153
+([C:3]-[C:2](=[O;D1;H0:4])-[OH;D1;+0:1])>>(C-C(-C)(-C)-[O;H0;D2;+0:1]-[C:2](-[C:3])=[O;D1;H0:4]),cd4c8dfb74ae00d4ec8387e8837370d2f9fd4ad5e54ff56c9878f839,RCO2H deprotections,3028
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(F-[c;H0;D3;+0:1](:[c:2]):[c:3]).([C:4]-[NH;D2;+0:5]-[C:6]),d6ea9b633b6bf4e6067258d496eb35f7d14e90bca4edf5fe58c28c1b,N-arylation with Ar-X,1380
+([#7;a:2]:[c;H0;D3;+0:1](:[c:3])-[N;H0;D3;+0:5](-[C:4])-[C:6])>>(Cl-[c;H0;D3;+0:1](:[#7;a:2]):[c:3]).([C:4]-[NH;D2;+0:5]-[C:6]),d775cf39c89817610201eb77d7f2c05750999ab6870ec4bcf35a0a78,N-arylation with Ar-X,2178
+([#7;a:4]:[c:3]:[c;H0;D3;+0:1](:[c:2])-[c;H0;D3;+0:5](:[c:6]):[c:7])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]:[#7;a:4]).(O-B(-O)-[c;H0;D3;+0:5](:[c:6]):[c:7]),d9e3b3a2cfe6e8e4f2db101af24fed0e1646b47d310510c8f6dc03e2,Suzuki coupling,1511
+([C:4]-[N;H0;D3;+0:5](-[C:6])-[c;H0;D3;+0:1](:[c:2]):[c:3])>>(Br-[c;H0;D3;+0:1](:[c:2]):[c:3]).([C:4]-[NH;D2;+0:5]-[C:6]),dd2fdbd233407626d24330af0096988c30d6471ee9a6e9d629c560da,N-arylation with Ar-X,1177
+([CH3;D1;+0:1]-[O;H0;D2;+0:4]-[C:3]=[O;D1;H0:2])>>(O-[CH3;D1;+0:1]).([O;D1;H0:2]=[C:3]-[OH;D1;+0:4]),e189425e090fce77131c907ebf1468461240dd27d4457a40d701e43e,O-acylation to ester,4349
+([C:8]-[NH;D2;+0:9]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[#8:3]-[C:4](-[C;D1;H3:5])(-[C;D1;H3:6])-[C;D1;H3:7])>>(C-C(-C)(-C)-O-C(=O)-O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[#8:3]-[C:4](-[C;D1;H3:5])(-[C;D1;H3:6])-[C;D1;H3:7]).([C:8]-[NH2;D1;+0:9]),e21cbc5dc2263b0652396beb92f05fda37bb9f2c606e45a3619c49bf,NH protections,1198
+([C:3]-[N;H0;D3;+0:4](-[C:5])-[CH2;D2;+0:1]-[c:2])>>(O=[CH;D2;+0:1]-[c:2]).([C:3]-[NH;D2;+0:4]-[C:5]),e4209383939f49c0378a8859c2af8829f35179fef3a6302d2bd2297e,Reductive amination,2339
+([#7;a:4]:[c:3]:[c:2]-[NH2;D1;+0:1])>>(O=[N+;H0;D3:1](-[O-])-[c:2]:[c:3]:[#7;a:4]),e69a09e0931e7bc26f571c5e2ed13b773c90943f0f6753349e287e32,Nitro to amine reduction,2666
+([C:1]-[CH;D3;+0:2](-[OH;D1;+0:3])-[c:4])>>([C:1]-[C;H0;D3;+0:2](=[O;H0;D1;+0:3])-[c:4]),e79b9f0e956cb38254670cbba4f53d0c22148efe9b15465e130440fe,Ketone to alcohol,1483
+([#7;a:4]:[c:3]-[C;H0;D3;+0:1](=[O;D1;H0:2])-[NH;D2;+0:6]-[C:5])>>(O-[C;H0;D3;+0:1](=[O;D1;H0:2])-[c:3]:[#7;a:4]).([C:5]-[NH2;D1;+0:6]),e83ee81602b397ed833d633e817ffa090f0d21c621887dacaf746f5e,N-acylation to amide,1402
+([Br;H0;D1;+0:1]-[CH2;D2;+0:2]-[c:3])>>(O=C1-C-C-C(=O)-N-1-[Br;H0;D1;+0:1]).([CH3;D1;+0:2]-[c:3]),eece798354409c857729b8ffcb1d9784ebdca6b0d62c935232f02dc9,Halogenation,1183
+([NH2;D1;+0:1]-[c:2])>>(O=[N+;H0;D3:1](-[O-])-[c:2]),f0a489cd79c24ed642d5256650cdb0f98e5344b2c074824b17336ecc,Nitro to amine reduction,11957
+([C:2]-[CH;D3;+0:1](-[C:3])-[N;H0;D3;+0:5](-[C:4])-[C:6])>>(O=[C;H0;D3;+0:1](-[C:2])-[C:3]).([C:4]-[NH;D2;+0:5]-[C:6]),f4afa1fa835dd5933ebafc736a3120b7569d6bf2160303a8812e2d2c,Reductive amination,1341
+([Br;H0;D1;+0]-[c;H0;D3;+0:2](:[c:1]):[c:3])>>([c:1]:[cH;D2;+0:2]:[c:3]),f4b38824f683bf381c9aa5fd7b484bbde56e2482c8df45c4f3383d61,Halogenation,1308
+([OH;D1;+0:1]-[c:2])>>(C-[O;H0;D2;+0:1]-[c:2]),f50e6edd43215fd09e75ad8277fe209f633bdb24972a58fad4063f8f,ROH deprotections,4957
+([C:1]-[NH;D2;+0:2]-[C:3])>>([C:1]-[N;H0;D3;+0:2](-[C:3])-C-c1:c:c:c:c:c:1),f58207c6c64a5b48e40756ac3ba50fe69cdf9b1d18b6063ebd95ff15,NH deprotections,1854
+([C:5]=[C:4]-[C:2](=[O;D1;H0:3])-[OH;D1;+0:1])>>(C-C-[O;H0;D2;+0:1]-[C:2](=[O;D1;H0:3])-[C:4]=[C:5]),f7700dd7b87e14473011f502e59081e27e0a155719b46e62ad2ee91c,RCO2H deprotections,1041
+([C:3]-[NH;D2;+0:4]-[CH2;D2;+0:1]-[c:2])>>(O=[CH;D2;+0:1]-[c:2]).([C:3]-[NH2;D1;+0:4]),f78624bd87f224b709b14a27d6ee712af84642974d7873cf47c74b30,Reductive amination,1667
+([C:2]-[N;H0;D3;+0:3](-[C:4])-[CH3;D1;+0:1])>>(O=[CH2;D1;+0:1]).([C:2]-[NH;D2;+0:3]-[C:4]),fb44fedb5e2cc8d07bdd0b6fb6f327584934b65e8fb8e97e63bb7532,Reductive amination,1387
