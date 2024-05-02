@@ -1,3 +1,5 @@
+![Run Tox](https://github.com/tagirshin/altmol/actions/workflows/tox.yml/badge.svg?branch=main)
+
 # altmol
 
 `altmol` enhances Altair visualizations by integrating interactive 2D molecular structures, 
