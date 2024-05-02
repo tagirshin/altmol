@@ -6,16 +6,23 @@ authors = ["Tagir Akhmetshin <tagirshin@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.9,<3.13"
 rdkit = "^2023"
-pandas = "^2"
 altair = "^5"
+pytest = { version = ">6.0", optional = true }
+pandas = ">=2.1"
+numpy = ">=1.25"
 
 
 [tool.poetry.group.dev.dependencies]
 black = "^24"
 jupyterlab = "^4"
 ipywidgets = "^8"
+
+
+[tool.poetry.extras]
+test = ["pytest"]
+
 
 [build-system]
 requires = ["poetry-core"]
