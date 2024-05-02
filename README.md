@@ -1,4 +1,4 @@
-![Run Tox](https://github.com/tagirshin/altmol/actions/workflows/tox.yml/badge.svg?branch=main)
+![check](https://github.com/tagirshin/altmol/actions/workflows/check.yml/badge.svg?branch=main)
 
 # altmol
 
