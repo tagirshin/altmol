@@ -5,6 +5,7 @@ description = ""
 authors = ["Tagir Akhmetshin <tagirshin@gmail.com>"]
 readme = "README.md"
 
+
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
 rdkit = "^2023"
