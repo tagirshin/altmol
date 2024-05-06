@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "altmol"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["Tagir Akhmetshin <tagirshin@gmail.com>"]
 readme = "README.md"
@@ -8,10 +8,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
-rdkit = "^2023"
 altair = "^5"
 pandas = ">=2.1"
 numpy = ">=1.25"
+rdkit = "^2023.9.6"
 
 
 [tool.poetry.group.dev.dependencies]
