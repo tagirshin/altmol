@@ -1,4 +1,6 @@
 ![check](https://github.com/tagirshin/altmol/actions/workflows/check.yml/badge.svg?branch=main)
+[![PyPI version](https://badge.fury.io/py/altmol.svg)](https://badge.fury.io/py/altmol)
+[![PyPI Supported Python Versions](https://img.shields.io/pypi/pyversions/altmol.svg)](https://pypi.python.org/pypi/altmol/)
 
 # altmol
 
