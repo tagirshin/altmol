@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "altmol"
-version = "0.2.1"
+version = "0.2.2"
 description = ""
 authors = ["Tagir Akhmetshin <tagirshin@gmail.com>"]
 readme = "README.md"
@@ -19,6 +19,7 @@ black = "^24"
 jupyterlab = "^4"
 ipywidgets = "^8"
 pytest = ">6.0"
+jupyter = "^1.0.0"
 
 
 [build-system]

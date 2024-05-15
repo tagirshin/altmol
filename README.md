@@ -8,6 +8,9 @@
 leveraging RDKit for rendering.
 This package is inspired by the capabilities of [molplotly](https://github.com/wjm41/molplotly). 
 
+![Beautiful :)](https://raw.githubusercontent.com/tagirshin/altmol/main/images/esol_regression.gif)
+![Beautiful :)](https://raw.githubusercontent.com/tagirshin/altmol/main/images/aizynthfinder_templates.gif)
+
 ## Installation
 
 `altmol` can be easily installed using `pip` or `poetry`, accommodating both traditional and modern Python workflows.
@@ -41,7 +44,8 @@ Here's a simple example to illustrate how to create an interactive scatter plot 
 import altair as alt
 import pandas as pd
 
-from altmol import encode_molecules, mol_plot
+from altmol.plot import chem_plot
+from altmol.chem import encode_molecules
 
 # URL of the ESOL dataset
 url_esol = 'https://raw.githubusercontent.com/deepchem/deepchem/master/datasets/delaney-processed.csv'
@@ -56,7 +60,7 @@ x_col_name = "measured log solubility in mols per litre"
 y_col_name = "ESOL predicted log solubility in mols per litre"
 
 # Generate and display the interactive plot
-chart = mol_plot(
+chart = chem_plot(
     df,
     x_axis=alt.X(f"{x_col_name}:Q", title="True Log solubility"),
     y_axis=alt.Y(f"{y_col_name}:Q", title="Pred Log solubility"),
@@ -68,16 +72,11 @@ chart = mol_plot(
 chart.display()
 ```
 
-## Documentation
-
-For detailed documentation, including a full list of features, installation instructions, 
-and advanced usage examples, please visit altmol documentation.
 
 ## Contributing
 
 Contributions to `altmol` are welcome! Whether it's bug reports, feature requests, 
-or contributions to the code, we value your input. Please refer to our Contributing Guidelines 
-for more information on how you can contribute.
+or contributions to the code, we value your input.
 
 ## License
 

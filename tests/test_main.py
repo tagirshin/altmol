@@ -2,12 +2,14 @@ import pytest
 import altair as alt
 import pandas as pd
 from rdkit import Chem
-from altmol.main import (
+from altmol.plot import (
+    chem_plot,
+)
+from altmol.chem import (
     get_rdkit_object,
     mol_to_png_data_url,
     mol_to_svg_data_url,
     encode_molecules,
-    mol_plot,
 )
 
 
@@ -56,7 +58,7 @@ def test_encode_molecules():
 def test_mol_plot():
     data = {"smiles": ["CCO"], "MolecularWeight": [46.07]}
     df = encode_molecules(pd.DataFrame(data))
-    chart = mol_plot(df, x_axis="MolecularWeight", y_axis="smiles", tooltip=["smiles"])
+    chart = chem_plot(df, x_axis="MolecularWeight", y_axis="smiles", tooltip=["smiles"])
     assert isinstance(chart, alt.Chart)
     assert chart.encoding.x.shorthand == "MolecularWeight"
     assert chart.encoding.y.shorthand == "smiles"
